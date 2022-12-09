@@ -40,6 +40,8 @@ public class Main {
         Users u_one = new Users(1,"UG",17,"ug@gmail.com",orders_one);
         Users u_two = new Users(2,"AA",17,"AA@gmail.com",orders_two);
 
+        i_one.display();
+
 
     }
 }

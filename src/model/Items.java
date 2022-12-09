@@ -54,4 +54,12 @@ public class Items {
     public void setbrand(String brand) {
         this.brand = brand;
     }
+
+    public void display(){
+        System.out.println("Item name: "+this.name);
+        System.out.println("Code: "+this.code);
+        System.out.println("Brand: "+this.brand);
+        System.out.println("Price: "+this.price);
+
+    }
 }
